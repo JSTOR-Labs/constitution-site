@@ -3,11 +3,7 @@
 # Site settings
 title: Understanding the Constitution
 description: | 
-  A mobile application that  
-  connects passages in the  
-  U.S. Constitution  
-  to quoting articles in [JSTOR](http://www.jstor.org)  
-  brought to you by the [JSTOR Labs](http://labs.jstor.org) Team  
+  Text of the U.S. Constitution + Academic Analysis    
 owner: JSTOR labs # or company name
 first_published: 2016 # if migrating another site, the year of your first publish
 email: labs@ithaka.org
