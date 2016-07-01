@@ -2,16 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Understanding the Constitution</title>
-    <description>A mobile application that  
-connects passages in the  
-U.S. Constitution  
-to quoting articles in [JSTOR](http://www.jstor.org)  
-brought to you by the [JSTOR Labs](http://labs.jstor.org) Team  
+    <description>Use the text of the U.S. Constitution  
+as a pathway into the scholarship about it.    
 </description>
     <link>http://labs.jstor.org/constitution-site/</link>
     <atom:link href="http://labs.jstor.org/constitution-site/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 28 Jun 2016 10:50:24 -0400</pubDate>
-    <lastBuildDate>Tue, 28 Jun 2016 10:50:24 -0400</lastBuildDate>
+    <pubDate>Fri, 01 Jul 2016 10:34:27 -0400</pubDate>
+    <lastBuildDate>Fri, 01 Jul 2016 10:34:27 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
   </channel>

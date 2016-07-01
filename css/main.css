@@ -2502,7 +2502,7 @@ body.is-menu-visible #menu {
     opacity: 0; }
   @media screen and (max-width: 736px) {
     #banner {
-      padding: 7em 3em 5em 3em ;
+      padding: 0 3em 5em 3em ;
       height: auto;
       min-height: 0; }
       #banner h2 {
