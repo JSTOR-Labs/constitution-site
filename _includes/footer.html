@@ -1,27 +1,7 @@
 <!-- Footer -->
 <footer id="footer">
-  <ul class="icons">
-    {% for socloc in site.social %}
-    {% if socloc[1] %}
-    {% if socloc[0] == 'email' %}
-    <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-envelope-o"
-           ><span class="label">E-mail</span></a></li>
-    {% else %}
-    <li><a target="_blank" href="{{ socloc[1] }}" class="icon fa-{{ socloc[0] }}"
-           ><span class="label">{{ socloc[0] }}</span></a></li>
-    {% endif %}
-    {% endif %}
-    {% endfor %}
-  </ul>
-  <ul class="copyright">
-    <li>&copy; {% assign thisyear = site.time | date: "%Y" %}
-    {% if site.first_published %}
-      {% capture diff %}{{ site.first_published | minus:thisyear }}{% endcapture %}
-      {% if diff contains '-' %}{{ site.first_published }},{% endif %}
-    {% endif %}
-    {{ thisyear }}
-    {% if site.owner %}{{ site.owner }}{% else %}{{ site.title }}{% endif %}</li>
-    <li>Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a></li>
-    <li>Built with: <a href="http://jekyllrb.com" target="_blank">Jekyll</a></li>
-  </ul>
+  <div class="copyright" style="margin:0 48px;">
+    <p>JSTOR is part of ITHAKA, a not-for-profit prganization helping the academic community use digital technologies to preserve the scholarly record and to advance research and teaching in sustainable ways.</p>
+    <p>©2000-<script>document.write(new Date().getFullYear())</script> ITHAKA. All Rights Reserved. JSTOR®, the JSTOR logo, JPASS®, Aluka® and ITHAKA® are registered trademarks of ITHAKA.</p>
+  </div>
 </footer>
