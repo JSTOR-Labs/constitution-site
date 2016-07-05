@@ -1479,7 +1479,7 @@ $baseurl: '{{ site.baseurl }}/images';
 /* Banner */
 
 	#banner {
-		@include vendor('display', 'flex');
+		/*@include vendor('display', 'flex');*/
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'center');
 		cursor: default;
@@ -1583,7 +1583,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		}
 
 		@include breakpoint(small) {
-			@include padding(7em, 3em);
+			@include padding(0, 3em);
 			height: auto;
 			min-height: 0;
 
@@ -1802,7 +1802,7 @@ $baseurl: '{{ site.baseurl }}/images';
 		#page-wrapper {
 			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("#{$baseurl}/WeThePeople.png")'));
 			background-attachment: fixed;
-			background-position: center center;
+			/* background-position: center center; */
 			background-repeat: no-repeat;
 			background-size: cover;
 			padding-top: 0;
