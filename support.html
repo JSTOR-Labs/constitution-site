@@ -17,6 +17,7 @@ as a pathway into the scholarship about it
   <!--[if lte IE 8]><script src="/constitution-site/js/ie/html5shiv.js"></script><![endif]-->
   <link rel="canonical" href="http://labs.jstor.org/constitution-site/support.html">
   <link rel="stylesheet" href="/constitution-site/css/main.css" />
+  <link rel="stylesheet" href="/constitution-site/css/jquery-ui-1.9.2.css" />
   <!--[if lte IE 8]><link rel="stylesheet" href="/constitution-site/css/ie8.css" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="/constitution-site/css/ie9.css" /><![endif]-->
   <link rel="alternate" type="application/rss+xml" title="Understanding the U.S. Constitution" href="http://labs.jstor.org/constitution-site/feed.xml">
@@ -75,7 +76,9 @@ as a pathway into the scholarship about it
 
   <section class="wrapper style5">
     <div class="inner">
-      <h3 id="contact-ushttplabsjstororglabs-contact-us-captchasubjectunderstanding-the-us-constitutionnextconstitutionsupporthtml"><a href="http://labs.jstor.org/labs-contact-us-captcha/?subject=Understanding the US Constitution&amp;next=/constitution/support.html">Contact Us</a></h3>
+      <p><a id="showContact" class="button">Send Comments</a></p>
+
+<h3 id="contact-ushttplabsjstororglabs-contact-us-captchasubjectunderstanding-the-us-constitutionnextconstitutionsupporthtml"><a href="http://labs.jstor.org/labs-contact-us-captcha/?subject=Understanding the US Constitution&amp;next=/constitution/support.html">Contact Us</a></h3>
 
 <p>We want to hear from you how to make this app better!  <a href="http://labs.jstor.org/labs-contact-us-captcha/?subject=Understanding the US Constitution&amp;next=/constitution/support.html"><strong>Send us your questions, comments and suggestions.</strong>​</a></p>
 
@@ -85,9 +88,26 @@ as a pathway into the scholarship about it
   <li>Jumping to a clause brings you to the top of the Article and Section the clause appears within, not directly to the clause itself if it appears deep within a Section.</li>
   <li>In citations copied and pasted from the app, fields that should be italicized are tagged with an “&lt; i &gt;” but are not fully formatted.</li>
   <li>It is possible to select a clause (such as the signatures in Article 7) with 0 articles quoting or referring to it, leading to a zero-results page.</li>
-  <li>Occasionally the icon to refine your search results appears at the bottom of the screen (when this happens, restart the app to correct the display.)</li>
-</ul>
+  <li>
+    <p>Occasionally the icon to refine your search results appears at the bottom of the screen (when this happens, restart the app to correct the display.)</p>
 
+    <div id="thankyou">Thank you for your input!</div>
+    <div id="contact-form" title="Send Comments">
+      <form method="post" action="/labs-contact-us/">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" value="" class="text ui-widget-content ui-corner-all" />
+          <label for="email">Email</label>
+          <input type="text" name="email" id="email" value="" class="text ui-widget-content ui-corner-all" />
+          <input type="hidden" name="subject" id="subject" value="SLDP Feedback" />
+          <label for="comments">Comments and Suggestions</label>
+          <textarea name="comments" id="comments" rows="6" cols="70" value="" class="text ui-widget-content ui-corner-all"></textarea>
+          <div id="recaptcha"></div>
+          <input type="submit" tabindex="-1" style="position:absolute; top:-1000px" />
+      </form>
+      <script src="https://www.google.com/recaptcha/api.js?onload=loadCaptcha&amp;render=explicit"></script>
+  </div>
+  </li>
+</ul>
 
     </div>
   </section>
@@ -106,11 +126,13 @@ as a pathway into the scholarship about it
 
       <!-- Scripts -->
 <script src="/constitution-site/js/jquery.min.js"></script>
+<script src="/constitution-site/js/jquery-ui-1.9.2.js"></script>
 <script src="/constitution-site/js/jquery.scrollex.min.js"></script>
 <script src="/constitution-site/js/jquery.scrolly.min.js"></script>
 <script src="/constitution-site/js/skel.min.js"></script>
 <script src="/constitution-site/js/util.js"></script>
 <!--[if lte IE 8]><script src="/constitution-site/js/ie/respond.min.js"></script><![endif]-->
+<script src="/constitution-site/js/contact.js"></script>
 <script src="/constitution-site/js/main.js"></script>
 
 
