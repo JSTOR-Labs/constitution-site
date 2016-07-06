@@ -72,7 +72,7 @@ $.ajaxSetup({
 
     dialog = $( "#contact-form" ).dialog({
         autoOpen: false,
-        height: 650,
+        height: 700,
         width: 500,
         modal: true,
         buttons: {

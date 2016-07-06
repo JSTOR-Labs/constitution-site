@@ -4,11 +4,13 @@ title: Support
 description: For <i>Understanding the U.S. Constitution</i>
 ---
 
+
+
+### Contact Us
+
+We want to hear from you how to make this app better!  **Send us your questions, comments and suggestions.**
+
 <a id="showContact" class="button">Send Comments</a>
-
-### [Contact Us](http://labs.jstor.org/labs-contact-us-captcha/?subject=Understanding the US Constitution&next=/constitution/support.html)
-
-We want to hear from you how to make this app better!  [**Send us your questions, comments and suggestions.**​](http://labs.jstor.org/labs-contact-us-captcha/?subject=Understanding the US Constitution&next=/constitution/support.html)
 
 ### Known Issues
 
