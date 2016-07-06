@@ -1086,7 +1086,7 @@ body {
 @-ms-viewport {
   width: device-width; }
 body {
-  background: #2e3842; }
+  background: #283138; }
   body.is-loading *, body.is-loading *:before, body.is-loading *:after {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -1302,7 +1302,7 @@ textarea {
   input[type="email"]:focus,
   select:focus,
   textarea:focus {
-    box-shadow: 0 0 0 2px #546d89; }
+    box-shadow: 0 0 0 2px #546e89; }
 
 .select-wrapper {
   text-decoration: none;
@@ -1388,12 +1388,12 @@ input[type="radio"] {
       width: 1.65em; }
   input[type="checkbox"]:checked + label:before,
   input[type="radio"]:checked + label:before {
-    background: #2e3842;
+    background: #283138;
     color: #fff;
     content: '\f00c'; }
   input[type="checkbox"]:focus + label:before,
   input[type="radio"]:focus + label:before {
-    box-shadow: 0 0 0 2px #546d89; }
+    box-shadow: 0 0 0 2px #546e89; }
 
 input[type="checkbox"] + label:before {
   border-radius: 3px; }
@@ -1928,7 +1928,7 @@ button,
   .wrapper.alt {
     padding: 0; }
   .wrapper.style1 {
-    background-color: #546d89;
+    background-color: #546e89;
     color: #c8ece9; }
     .wrapper.style1 strong, .wrapper.style1 b {
       color: #ffffff; }
@@ -1965,7 +1965,7 @@ button,
     .wrapper.style1 input[type="checkbox"]:checked + label:before,
     .wrapper.style1 input[type="radio"]:checked + label:before {
       background: #ffffff;
-      color: #546d89; }
+      color: #546e89; }
     .wrapper.style1 ::-webkit-input-placeholder {
       color: #a6e0db !important; }
     .wrapper.style1 :-moz-placeholder {
@@ -2015,9 +2015,9 @@ button,
       .wrapper.style1 .features li {
         border-top-color: rgba(0, 0, 0, 0.125); } }
   .wrapper.style2 {
-    background-color: #2e3842; }
+    background-color: #283138; }
   .wrapper.style3 {
-    background-color: #ea4e3c;
+    background-color: #EB4E3D;
     color: #d3d4e4; }
     .wrapper.style3 strong, .wrapper.style3 b {
       color: #ffffff; }
@@ -2054,7 +2054,7 @@ button,
     .wrapper.style3 input[type="checkbox"]:checked + label:before,
     .wrapper.style3 input[type="radio"]:checked + label:before {
       background: #ffffff;
-      color: #ea4e3c; }
+      color: #EB4E3D; }
     .wrapper.style3 ::-webkit-input-placeholder {
       color: #b9bad4 !important; }
     .wrapper.style3 :-moz-placeholder {
@@ -2229,7 +2229,7 @@ button,
   -ms-transition: -ms-transform 0.5s ease;
   transition: transform 0.5s ease;
   -webkit-overflow-scrolling: touch;
-  background: #546d89;
+  background: #546e89;
   color: #ffffff;
   height: 100%;
   max-width: 80%;
@@ -2296,7 +2296,7 @@ body.is-menu-visible #menu {
   -webkit-transition: background-color 0.2s ease;
   -ms-transition: background-color 0.2s ease;
   transition: background-color 0.2s ease;
-  background: #2e3842;
+  background: #283138;
   height: 3em;
   left: 0;
   line-height: 3em;
@@ -2377,7 +2377,10 @@ body.is-menu-visible #menu {
 
 /* Banner */
 #banner {
-  /*@include vendor('display', 'flex');*/
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
   -moz-flex-direction: column;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
@@ -2489,7 +2492,7 @@ body.is-menu-visible #menu {
     -ms-transition-delay: 1.25s;
     transition-delay: 1.25s;
     content: '';
-    background: #2e3842;
+    background: #283138;
     display: block;
     width: 100%;
     height: 100%;
@@ -2499,7 +2502,7 @@ body.is-menu-visible #menu {
     opacity: 0; }
   @media screen and (max-width: 736px) {
     #banner {
-      padding: 0 3em 0.1em 3em ;
+      padding: 0 3em 5em 3em ;
       height: auto;
       min-height: 0; }
       #banner h2 {
@@ -2539,7 +2542,8 @@ body.is-loading #banner:after {
     -ms-order: 1;
     order: 1;
     padding-right: 3em;
-    width: 70%; }
+    text-align: center;
+    width: 100%; }
     #cta .inner header p {
       color: inherit; }
   #cta .inner .actions {
@@ -2607,8 +2611,8 @@ body.is-mobile #main > header {
 
 /* Footer */
 #footer {
-  padding: 2em 0 0.1em 0 ;
-  background-color: #1d242a;
+  padding: 6em 0 4em 0 ;
+  background-color: #171c20;
   text-align: center; }
   #footer .icons {
     font-size: 1.25em; }
@@ -2658,12 +2662,12 @@ body.landing #page-wrapper {
   background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/constitution-site/images/WeThePeople_sm.jpg");
   background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/constitution-site/images/WeThePeople_sm.jpg");
   background-attachment: fixed;
-  /* background-position: center center; */
+  background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 0; }
 body.landing #footer {
-  background-color: rgba(29, 36, 42, 0.9); }
+  background-color: rgba(23, 28, 32, 0.9); }
 
 body.is-mobile.landing #page-wrapper {
   background: none; }
@@ -2677,4 +2681,4 @@ body.is-mobile.landing .wrapper.style4 {
   background-repeat: no-repeat;
   background-size: cover; }
 body.is-mobile.landing #footer {
-  background-color: #1d242a; }
+  background-color: #171c20; }
