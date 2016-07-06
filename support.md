@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Support
-description: For Understanding the U.S. Constitution
+description: For <i>Understanding the U.S. Constitution</i>
 ---
 
 ### [Contact Us](http://labs.jstor.org/labs-contact-us-captcha/?subject=Understanding the US Constitution&next=/constitution/support.html)
 
-Please send us questions or any feedback on the app using this [form](http://labs.jstor.org/labs-contact-us-captcha/?subject=Understanding the US Constitution&next=/constitution/support.html).
+We want to hear from you how to make this app better!  [**Send us your questions, comments and suggestions.**​](http://labs.jstor.org/labs-contact-us-captcha/?subject=Understanding the US Constitution&next=/constitution/support.html)
 
 ### Known Issues
 

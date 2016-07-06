@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tips
-description: For using the U.S. Constitution
+description: For using <i>Understanding the U.S. Constitution</i>
 ---
 
 ## Tips

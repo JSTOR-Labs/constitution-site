@@ -1220,7 +1220,7 @@ $baseurl: '{{ site.baseurl }}/images';
 	}
 
 	.wrapper {
-		@include padding(6em, 0);
+		@include padding(3em, 0);
 
 		> .inner {
 			width: 60em;
@@ -1538,7 +1538,7 @@ $baseurl: '{{ site.baseurl }}/images';
 			bottom: 0;
 			color: inherit;
 			font-size: 0.8em;
-			height: 8.5em;
+			height: 5em;
 			left: 50%;
 			letter-spacing: _size(letter-spacing-alt);
 			margin-left: -8.5em;
@@ -1556,7 +1556,7 @@ $baseurl: '{{ site.baseurl }}/images';
 				background-position: center;
 				background-repeat: no-repeat;
 				background-size: contain;
-				bottom: 4em;
+				bottom: 1em;
 				content: '';
 				display: block;
 				height: 1.5em;
