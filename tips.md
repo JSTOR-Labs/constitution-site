@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tips
-description: Tips for using U.S. Constitution App
+description: For using the U.S. Constitution
 ---
 
 ## Tips
