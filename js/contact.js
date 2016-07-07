@@ -70,20 +70,20 @@ $.ajaxSetup({
             alert("Please enter the CAPTCHA or refresh the page");}
     }      
 
-    dialog = $( "#contact-form" ).dialog({
+    dialog = $( "#contact" ).dialog({
         autoOpen: false,
-        height: 700,
-        width: 500,
+        height: 540,
+        width: 360,
         modal: true,
         buttons: {
-    "Send Comments": closeDialog,
-    Cancel: function() {
-        dialog.dialog( "close" );
-    }
-    },
-    close: function() {
-    form[ 0 ].reset();
-    }
+            "Send Comments": closeDialog,
+            Cancel: function() {
+                dialog.dialog( "close" );
+            }
+   	    },
+        close: function() {
+            form[ 0 ].reset();
+        }
     });
     form = dialog.find( "form" ).on( "submit", function( event ) {
     });
