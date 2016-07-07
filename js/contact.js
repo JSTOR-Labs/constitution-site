@@ -53,7 +53,14 @@ $.ajaxSetup({
     function closeDialog() {
         response = grecaptcha.getResponse(captcha_widget);
         if(response){
-            $.post( "/labs-contact-us-captcha/", { name: $("#name").val(), email: $("#email").val(), subject: $("#subject").val(), comments: $("#comments").val(), captcharesponse: response})
+            var data = { csrfmiddlewaretoken: csrftoken, 
+                         name: $("#name").val(), 
+                         email: $("#email").val(), 
+                         subject: $("#subject").val(), 
+                         comments: $("#comments").val(), 
+                         captcharesponse: response};
+            console.log(data);
+            $.post( "/labs-contact-us-captcha/", data)
             .done(function(data) {
                 $('#thankyou').html('Thank you for your input!');
                 console.log("Message sent");
@@ -72,7 +79,7 @@ $.ajaxSetup({
 
     dialog = $( "#contact" ).dialog({
         autoOpen: false,
-        height: 540,
+        height: 550,
         width: 360,
         modal: true,
         buttons: {
