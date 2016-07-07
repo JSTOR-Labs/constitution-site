@@ -60,7 +60,7 @@ $.ajaxSetup({
                          comments: $("#comments").val(), 
                          captcharesponse: response};
             console.log(data);
-            $.post( "http://localhost/labs-contact-us-captcha/", data)
+            $.post( "/labs-contact-us-captcha/", data)
             .done(function(data) {
                 $('#thankyou').html('Thank you for your input!');
                 console.log("Message sent");
