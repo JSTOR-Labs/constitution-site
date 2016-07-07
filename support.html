@@ -76,11 +76,11 @@ as a pathway into the scholarship about it
 
   <section class="wrapper style5">
     <div class="inner">
-      <p><a id="showContact" class="button">Send Comments</a></p>
+      <h3 id="contact-us">Contact Us</h3>
 
-<h3 id="contact-ushttplabsjstororglabs-contact-us-captchasubjectunderstanding-the-us-constitutionnextconstitutionsupporthtml"><a href="http://labs.jstor.org/labs-contact-us-captcha/?subject=Understanding the US Constitution&amp;next=/constitution/support.html">Contact Us</a></h3>
+<p>We want to hear from you how to make this app better!  <strong>Send us your questions, comments and suggestions.</strong></p>
 
-<p>We want to hear from you how to make this app better!  <a href="http://labs.jstor.org/labs-contact-us-captcha/?subject=Understanding the US Constitution&amp;next=/constitution/support.html"><strong>Send us your questions, comments and suggestions.</strong>​</a></p>
+<p><a id="showContact" class="button">Send Comments</a></p>
 
 <h3 id="known-issues">Known Issues</h3>
 
@@ -92,17 +92,16 @@ as a pathway into the scholarship about it
     <p>Occasionally the icon to refine your search results appears at the bottom of the screen (when this happens, restart the app to correct the display.)</p>
 
     <div id="thankyou">Thank you for your input!</div>
-    <div id="contact-form" title="Send Comments">
-      <form method="post" action="/labs-contact-us/">
+    <div id="contact" title="Send Comments">
+      <form id="contact-form" method="post" action="/labs-contact-us/">
           <label for="name">Name</label>
           <input type="text" name="name" id="name" value="" class="text ui-widget-content ui-corner-all" />
           <label for="email">Email</label>
           <input type="text" name="email" id="email" value="" class="text ui-widget-content ui-corner-all" />
           <input type="hidden" name="subject" id="subject" value="Understanding the US Constitution" />
           <label for="comments">Comments and Suggestions</label>
-          <textarea name="comments" id="comments" rows="6" cols="70" value="" class="text ui-widget-content ui-corner-all"></textarea>
+          <textarea name="comments" id="comments" rows="4" cols="70" value="" class="text ui-widget-content ui-corner-all"></textarea>
           <div id="recaptcha"></div>
-          <input type="submit" tabindex="-1" style="position:absolute; top:-1000px" />
       </form>
       <script src="https://www.google.com/recaptcha/api.js?onload=loadCaptcha&amp;render=explicit"></script>
   </div>

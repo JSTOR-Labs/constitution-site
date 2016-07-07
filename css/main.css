@@ -2679,13 +2679,14 @@ body.is-mobile.landing .wrapper.style4 {
 body.is-mobile.landing #footer {
   background-color: #1d242a; }
 
-#contact-form {
+#contact {
   font-size: 1.0em;
   width: 100%;
   min-width: 300px;
   max-width: 800px;
   padding: 6px;
-  margin-top: 12px;
+  margin-top: 6px;
+  margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
   /*border: 1px solid #ccc;
@@ -2703,8 +2704,24 @@ fieldset {
   font-weight: bold;
   color: #333; }
 
-#contact-form form label {
+#contact-form {
+  margin: 0; }
+
+#contact-form label {
   font-size: 80%;
   font-weight: bold;
   color: #777;
   margin: 0; }
+
+#contact-form input {
+  font-size: 80%;
+  font-weight: bold;
+  color: #777;
+  margin: 0;
+  border: 1px solid black;
+  background: white;
+  margin-bottom: 12px;
+  height: 2.5em; }
+
+.ui-dialog .ui-dialog-buttonpane .ui-dialog-buttonset button {
+  font-size: 70%; }
