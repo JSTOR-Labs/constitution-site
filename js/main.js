@@ -17,6 +17,7 @@
 
 	$(function() {
 
+
 		var	$window = $(window),
 			$body = $('body'),
 			$wrapper = $('#page-wrapper'),
@@ -95,6 +96,14 @@
 
 			}
 
+		$('.apple').on('click', function() {
+			ga('send', 'event', 'click', 'iTunes app store');
+
+		});
+		$('.android').on('click', function() {
+			ga('send', 'event', 'click', 'Google Play store');
+
+		});
 	});
 
 })(jQuery);
