@@ -2372,7 +2372,7 @@ body.is-menu-visible #menu {
   justify-content: center;
   cursor: default;
   height: 100vh;
-  min-height: 35em;
+  min-height: 40em;
   overflow: hidden;
   position: relative;
   text-align: center; }
@@ -2417,7 +2417,7 @@ body.is-menu-visible #menu {
     height: 5em;
     left: 50%;
     letter-spacing: 0.225em;
-    margin-left: -8.5em;
+    margin-left: -8em;
     opacity: 1;
     outline: 0;
     padding-left: 0.225em;
